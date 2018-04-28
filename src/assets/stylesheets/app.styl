@@ -1,0 +1,63 @@
+@import 'normalize.css'
+@import '~assets/stylesheets/settings'
+@import '~assets/stylesheets/typography/base'
+@import '~assets/stylesheets/typography/typeset'
+@import '~assets/stylesheets/grid/container'
+@import '~assets/stylesheets/grid/section'
+@import '~assets/stylesheets/grid/column'
+@import '~assets/stylesheets/plugins/infinite'
+@import '~assets/stylesheets/plugins/lazy'
+
+
+#header
+  background: #fff
+  border-bottom: 1px solid #ccc
+
+  .header-container
+    padding: $section-gap $column-gap
+    +media("small-only")
+      padding ($section-gap/2)
+
+  .header-title
+    padding-right $column-gap
+
+  .header-nav
+    overflow-x auto
+    -webkit-overflow-scrolling touch
+    flex-grow: 2
+    nav
+      min-width 24.5rem
+      display block
+      ul
+        +mobile()
+          background $color-lightgray-3
+        margin-top 0
+        min-width 100%
+        line-height 2
+        margin-top ($section-gap/4)
+        padding ($section-gap/2) ($section-gap/4)
+        li + li
+          a
+            padding 0 .5rem
+//
+// main
+//
+
+// .article-body
+//   max-width 40rem
+//   margin 0 auto
+
+
+#footer
+  background-color: #f9f9f9
+
+.footer-container
+  align-items: center
+  display: flex
+  flex-direction: column
+  font-family: 'Roboto', sans-serif
+  font-size: .7rem
+  margin: 0 auto
+  text-align: center
+  a
+    color: #aaa

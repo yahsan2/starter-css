@@ -1,0 +1,8 @@
+.section
+  $section-gap ?= 2rem
+  padding-bottom: $section-gap
+  &:first-child,
+  &.has-background
+    padding-top $section-gap
+  .section:first-child
+    padding-top 0

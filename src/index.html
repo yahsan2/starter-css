@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Starter Css</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/app.styl">
+</head>
+<body>
+  <div id="app">
+    <header id="header">
+      <div class="header-container container">
+        <div class="columns is-gapless">
+          <div class="header-title column">
+            <h1>
+              <a href="/" title="">Starter CSS</a>
+            </h1>
+          </div>
+          <div class="header-nav column">
+            <nav class="typeset">
+              <ul class="columns is-gapless is-inline is-ended text-right">
+                <li class="column"><a href="/article">記事１</a></li>
+                <li class="column"><a href="/article">記事２</a></li>
+                <li class="column"><a href="/article">記事３</a></li>
+                <li class="column"><a href="/article">記事４</a></li>
+                <li class="column"><a href="/article">記事５</a></li>
+                <li class="column"><a href="/article">記事６</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <article class="single article-container container section">
+        <div class="article-body typeset columns is-gapless is-centered">
+          <div class="column is-8">
+            <header class="article-header section">
+              <p><img src="http://dummyimage.com/1200x800/4d494d/686a82.gif&text=メイン画像" alt="placeholder+image"></p>
+              <h1 class="title">記事のタイトル</h1>
+              <p class="date text-right">Feb 10, 2016</p>
+            </header>
+            <section class="content-section typeset section">
+              <h2>h2 をつかったタイトル</h2>
+              <p>ここはダミー記事の一部です。 google material design 文章を使ったりしています。</p>
+              <p>この文章はダミーです。タグのサンプルに使っています。ここにサンプルで記述していきます。このあとには br  がはいります。<br>
+              これは <a href="">Anchor</a> のサンプルです。</p>
+              <h2>h2 をつかったタイトルの長いバージョンをいれています。こんなに長くしないでほしいですが、たまにやってしまうユーザーがいますので、ちゃんと見えるようにしておきます。</h2>
+              <p>次のこれは <strong>strong</strong> の確認をしています。<br>つづいて <em>em</em> のテストです。<br>さらには <del>del</del> のテストです。</p>
+              <p>ここで blockquote です。</p>
+              <blockquote cite="http://example.com/facts">
+                <p>blockquote の見かたを確認してみてください。ここには引用などの文章がはいります。このあと、br がはいります。<br>blockquote 内で改行をした直後はこちらです。</p>
+                <p>The fundamentals of light, surface, and movement are key to conveying how objects move, interact, and exist in space and in relation to each other. Realistic lighting shows seams, divides space, and indicates moving parts.</p>
+                <p>上は英語の文章ですが、日本語でも英語でも両方イタリック体になります。</p>
+              </blockquote>
+              <p>ここは p タグの通常の文章ですが、すぐしたに ul のリストが入っています。</p>
+              <ul>
+                <li>リスト 01</li>
+                <li>リスト 02</li>
+                <li>リスト 03</li>
+              </ul>
+              <p>ここも p タグの通常の文章ですが、すぐしたに ol のリストが入っています。ordered list の略なので順番があります。</p>
+              <ol>
+                <li>リスト 01</li>
+                <li>リスト 02</li>
+                <li>リスト 03</li>
+              </ol>
+              <h3>h3 をつかったタイトルです</h3>
+              <p>H1やh2、h3 などの見出しタグは、padding-top がフォントサイズの２倍、margin-bottomがフォントサイズの半分になっています。</p>
+              <p>
+                <img src="http://dummyimage.com/1200x800/4d494d/686a82.gif&text=テスト画像" alt="テスト画像">
+                <span class="caption">画像の下にキャプションをいれてみます。</span>
+              </p>
+              <p>A material metaphor is the unifying theory of a rationalized space and a system of motion. The material is grounded in tactile reality, inspired by the study of paper and ink, yet technologically advanced and open to imagination and magic.</p>
+              <code>const sample = "test"</code>
+              <p class="justify">Surfaces and edges of the material provide visual cues that are grounded in reality. The use of familiar tactile attributes helps users quickly understand affordances. Yet the flexibility of the material creates new affordances that supercede those in the physical world, without breaking the rules of physics.</p>
+              <h2>Material is the metaphor</h2>
+              <p>The fundamentals of light, surface, and movement are key to conveying how objects move, interact, and exist in space and in relation to each other. Realistic lighting shows seams, divides space, and indicates moving parts.</p>
+            </section>
+            <footer class="section">
+              <ul class="inline-list">
+                <li><a href="./">Home</a></li>
+                <li class="current"><a href="javascript:void(0)">Article</a></li>
+              </ul>
+            </footer>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer id="footer">
+      <div class="footer-container container section">
+        <p><a href="" title=""><span>Starter Css</span></a></p>
+        <p>Starter css for Japanese Article</p>
+        <p>© 2018</p>
+      </div>
+    </footer>
+  </div>
+</body>
+<script src="./assets/javascripts/index.js"></script>
+</html>
